@@ -20,13 +20,13 @@
 }
 
 html {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 body {
   font-family: var(--font);
   color: var(--color-text-one);
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 ul {
@@ -40,5 +40,64 @@ a {
 }
 
 /* Button */
+.button {
+  
+}
 
+.button-search {
+  border-radius: 5px;
+  background-color: var(--color-one);
+  color: #fff;
+  width: 50px;
+}
+
+.button-shop-all {
+  padding: 5px;
+  background-color: transparent;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 10px;
+  width: 215px;
+  height: 60px;
+}
+
+.button-shop-all:hover {
+  background-color: var(--color-one);
+  border: 3px solid var(--color-one);
+}
+
+.button-arrow {
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+  background-color: var(--color-one);
+  color: #ffffff;
+  border-radius: 50%;
+  border: 1px solid var(--color-one);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.button-arrow:hover {
+  font-size: 24px;
+}
+
+.button-card {
+  width: 200px;
+  height: 50px;
+  color: var(--color-text-two);
+  font-weight: 600;
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  border: 1px solid #dddddd;
+}
+
+.button-card:hover {
+  color: #ffffff;
+  background-color: var(--color-one);
+}
 /* End Button */
