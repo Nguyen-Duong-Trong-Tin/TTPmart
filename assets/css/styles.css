@@ -1290,14 +1290,24 @@
 
 .brand .container {
   border: 1px solid #ddd;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px var(--color-one);
 }
 
 .brand .box {
   background-size: contain;
   background-repeat: no-repeat ;
   background-position: center;
-  width: 100%;
+  width: 90%;
   height: 100px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.brand .box:hover {
+  -webkit-filter: none;
+  filter: none;
 }
 
 .brand .box-one {
@@ -1316,6 +1326,11 @@
   background-image: url(../images/brand-4.webp);
 }
 
+@media (max-width: 575.98px) {
+  .brand .container {
+    padding: 25px;
+  }
+}
 /* End Brand */
 /* End Main */
 
