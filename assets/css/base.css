@@ -51,7 +51,7 @@ a {
   width: 50px;
 }
 
-.button-shop-all {
+.button-shop {
   padding: 5px;
   background-color: transparent;
   color: #ffffff;
@@ -63,7 +63,7 @@ a {
   height: 60px;
 }
 
-.button-shop-all:hover {
+.button-shop:hover {
   background-color: var(--color-one);
   border: 3px solid var(--color-one);
 }
