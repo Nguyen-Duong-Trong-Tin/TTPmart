@@ -17,7 +17,11 @@ $(document).ready(function () {
 // End Slide
 
 // Brand
-$('#brand').slick();
+$(document).ready(function(){
+  $('.inner-brand').slick({
+    infinite: true
+  });
+});
 // End Brand
 
 // End Slick
