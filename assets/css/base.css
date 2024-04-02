@@ -2,7 +2,7 @@
 
 :root {
   --color-one: #266BF9;
-  
+
   --color-text-one: #161616;
   --color-text-two: #999DA0;
   --color-text-three: #CFD4DF;
@@ -11,6 +11,7 @@
   --background-color-two: #F2F2F2;
   --background-color-three: #A20302;
   --background-color-four: #E2F2FF;
+  --background-color-five: #F4F4F4;
 
   --font: "Poppins", sans-serif;
 }
@@ -40,9 +41,7 @@ a {
 }
 
 /* Button */
-.button {
-  
-}
+.button {}
 
 .button-search {
   border-radius: 5px;
@@ -114,4 +113,18 @@ a {
   justify-content: center;
   align-items: center;
 }
+
+.button-play {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: var(--color-one);
+  border: none;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* End Button */

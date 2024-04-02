@@ -224,6 +224,7 @@
   background-position: center;
   padding-top: 120px;
   height: 400px;
+  margin-bottom: 0;
 }
 
 .breadcrumb .inner-content {
@@ -1500,6 +1501,68 @@
 /* End Brand */
 /* End Home Page */
 
+/* About Page */
+/* About Smart Fashion */
+.about-smart-fashion {
+  padding: 80px 0;
+  background-color: var(--background-color-five);
+}
+
+.about-smart-fashion .inner-content {
+  text-align: center;
+}
+
+.about-smart-fashion .inner-content .title {
+  font-size: 48px;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.about-smart-fashion .inner-content .subtitle {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.about-smart-fashion .inner-content .desc {
+  font-size: 18px;
+}
+
+@media (max-width: 575.98px) {
+  .about-smart-fashion .inner-content .title {
+    font-size: 36px;
+  }
+  
+  .about-smart-fashion .inner-content .subtitle {
+    font-size: 46px;
+  }
+  
+  .about-smart-fashion .inner-content .desc {
+    font-size: 16px;
+  }
+}
+/* End About Smart Fashion */
+
+/* Video */
+.video {
+  background-color: var(--background-color-five);
+}
+
+.video .img {
+  background-image: url(../images/promo-video-img.webp);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  aspect-ratio: 16/9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* End Video */
+/* End About Page */
 
 /* End Main */
 
