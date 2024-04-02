@@ -10,7 +10,7 @@
   --background-color-one: #F2F8FD;
   --background-color-two: #F2F2F2;
   --background-color-three: #A20302;
-
+  --background-color-four: #E2F2FF;
 
   --font: "Poppins", sans-serif;
 }
@@ -58,7 +58,7 @@ a {
   border: 3px solid #ffffff;
   font-weight: bold;
   font-size: 18px;
-  border-radius: 10px;
+  border-radius: 20px;
   width: 215px;
   height: 60px;
 }
@@ -99,5 +99,19 @@ a {
 .button-card:hover {
   color: #ffffff;
   background-color: var(--color-one);
+}
+
+.button-read-more {
+  background-color: var(--color-text-one);
+  color: #ffffff;
+  border: 3px solid var(--color-text-one);
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 20px;
+  width: 180px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* End Button */
