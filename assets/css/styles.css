@@ -193,9 +193,12 @@
   background-color: #000000;
 }
 
+.header-main .inner-content {
+  background-color: var(--color-one);
+}
+
 .header-main .list {
   padding: 15px 0;
-  background-color: var(--color-one);
   border-radius: 5px;
   display: flex;
   justify-content: center;
@@ -211,9 +214,17 @@
   margin-right: 0;
 }
 
+.header-main .navbar {
+  display: none;
+}
+
 @media (max-width: 991.98px) {
-  .header-main {
+  .header-main .list {
     display: none;
+  }
+
+  .header-main .navbar {
+    display: flex;
   }
 }
 /* End Header Main */
@@ -1559,9 +1570,222 @@
   justify-content: center;
   align-items: center;
 }
-
-
 /* End Video */
+
+/* Team Member */
+.team-member {
+  padding: 80px 0;
+  background-color: var(--background-color-five);
+}
+
+.team-member .inner-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.team-member .inner-title .title {
+  color: var(--color-text-one);
+  font-weight: 600;
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.team-member .inner-title .desc {
+  color: var(--color-text-four);
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.team-member .box {
+  text-align: center;
+  overflow: hidden;
+}
+
+.team-member .box .img {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  transition: transform .2s;
+}
+
+.team-member .box:hover .img {
+  transform: scale(1.1);
+}
+
+.team-member .box-one .img {
+  background-image: url(../images/team-member-1.webp);
+}
+
+.team-member .box-two .img {
+  background-image: url(../images/team-member-2.webp);
+}
+
+.team-member .box-three .img {
+  background-image: url(../images/team-member-3.webp);
+}
+
+.team-member .box .img .social {
+  width: 80%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-one);
+  display: none;
+}
+
+.team-member .box:hover .img .social {
+  display: flex;
+}
+
+.team-member .box .img .social li {
+  margin-right: 20px;
+}
+
+.team-member .box .img .social li:nth-child(4) {
+  margin-right: 0;
+}
+
+.team-member .box .img .social a {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.team-member .box .name {
+  color: var(--color-text-one);
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.team-member .box .position {
+  color: var(--color-text-one);
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 991.98px) {
+  .team-member .box-three {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .team-member .box-two {
+    margin-top: 30px;
+  }
+}
+/* End Team Member */
+
+/* Feature */
+.feature {
+  padding-bottom: 80px;
+  background-color: var(--background-color-five);
+}
+
+.feature .container {
+  box-shadow: 2px 2px 2px 2px var(--color-one);
+  border-radius: 20px;
+  padding: 80px 0;
+}
+
+.feature .box {
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.feature .box .icon {
+  width: 80px;
+  height: 80px;
+  background-color: var(--color-one);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.feature .box .icon .img {
+  background-image: url(../images/feature-2.webp);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+}
+
+.feature .box-one .icon .img {
+  background-image: url(../images/feature-1.webp);
+}
+
+.feature .box-two .icon .img {
+  background-image: url(../images/feature-2.webp);
+}
+
+.feature .box-three .icon .img {
+  background-image: url(../images/feature-3.webp);
+}
+
+.feature .box .title {
+  font-weight: 600;
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+
+.feature .box .desc {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 1199.98px) {
+  .feature .box .title {
+    font-size: 22px;
+  }
+
+  .feature .box .desc {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .feature .box-three {
+    margin-top: 30px;
+  }
+
+  .feature .box .title {
+    font-size: 26px;
+  }
+
+  .feature .box .desc {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .feature .box-two {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .feature .box {
+    padding-left: 10px;
+  }
+
+  .feature .box .title {
+    font-size: 22px;
+  }
+
+  .feature .box .desc {
+    font-size: 14px;
+  }  
+}
+/* End Feature */
 /* End About Page */
 
 /* End Main */

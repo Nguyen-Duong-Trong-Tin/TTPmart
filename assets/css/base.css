@@ -6,6 +6,7 @@
   --color-text-one: #161616;
   --color-text-two: #999DA0;
   --color-text-three: #CFD4DF;
+  --color-text-four: #595959;
 
   --background-color-one: #F2F8FD;
   --background-color-two: #F2F2F2;
@@ -112,6 +113,12 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.button-read-more:hover {
+  background-color: var(--color-one);
+  border: none;
+  color: #ffffff;
 }
 
 .button-play {
