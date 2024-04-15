@@ -2,6 +2,8 @@
 
 :root {
   --color-one: #266BF9;
+  --color-two: #FEC356;
+  --color-three: rgb(241, 115, 115);
 
   --color-text-one: #161616;
   --color-text-two: #999DA0;
@@ -134,4 +136,14 @@ a {
   align-items: center;
 }
 
+.button-search-product {
+  border: none;
+  background-color: var(--color-one);
+  border-radius: 10px;
+  padding: 10px;
+  width: 150px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+}
 /* End Button */
