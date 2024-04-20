@@ -4,6 +4,7 @@
   --color-one: #266BF9;
   --color-two: #FEC356;
   --color-three: rgb(241, 115, 115);
+  --color-four: #57b846;
 
   --color-text-one: #161616;
   --color-text-two: #999DA0;
@@ -145,5 +146,19 @@ a {
   color: #ffffff;
   font-size: 20px;
   font-weight: 600;
+}
+
+.button-login {
+  background-color: var(--color-four);
+  border: none;
+  padding: 20px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.button-login:hover {
+  background-color: var(--color-text-one);
 }
 /* End Button */

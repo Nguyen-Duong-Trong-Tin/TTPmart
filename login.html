@@ -148,87 +148,54 @@
     </section>
     <!-- End Header Main -->
 
-    <!-- Breadcrumb -->
-    <section class="breadcrumb">
+    <section class="login">
       <div class="container">
         <div class="row">
-          <div class="col-12">
-            <div class="inner-content">
-              <h1 class="title">Product Page</h1>
-              <p class="desc">
-                <a href="/">HOME</a>
-                <span>SHOP</span>
-              </p>
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+            <div class="img">
+              <img src="assets/images/login.webp" alt="">
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Breadcrumb -->
-
-    <!-- Categories -->
-    <section id="categories" class="categories">
-      <div class="container">
-        <div class="row">
-          <!-- <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-            <div class="box" data-category="${item}">${item}</div>
-          </div> -->
-        </div>
-      </div>
-    </section>
-    <!-- End Categories -->
-
-    <!-- Product -->
-    <!-- Products -->
-    <section class="products" id="products">
-      <h2 class="title">Danh sách sản phẩm</h2>
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="form" id="form">
-              <input class="search" type="text" name="search" placeholder="Nhập từ khóa tìm kiếm...">
-              <button class="button button-search-product">Tìm kiếm</button>
-            </div>
-            <div class="filter" id="filter">
-              <select name="sort" class="sort" style="width: 250px;">
-                <option value="mac-dinh">Mặc định</option>
-                <option value="gia-thap-den-cao">Giá thấp đến cao</option>
-                <option value="gia-cao-den-thap">Giá cao đến thấp</option>
-                <option value="giam-gia-nhieu">Giảm giá nhiều</option>
-              </select>
-            </div>
-          </div>
-        </div>
-        <div class="row row-2">
-          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
-            <div class="product__item">
-              <img class="img" src="link_ảnh" alt="tiêu_đề_ảnh">
-              <div class="percentage">%</div>
-              <div class="content">
-                <h5 class="title">Iphone 9</h5>
-                <div class="price-stock">
-                  <p class="price">$</p>
-                  <p class="stock">Còn lại: 94 sp</p>
+          <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+            <form action="" class="form">
+              <h3 class="title">Đăng Nhập</h3>
+              <div class="row">
+                <div class="col-12">
+                  <label for="email">
+                    <i class="fa-solid fa-envelope"></i>
+                  </label>
+                  <input type="email" id="email" name="email" placeholder="Email">
+                </div>
+                <div class="col-12">
+                  <label for="password">
+                    <i class="fa-solid fa-lock"></i>
+                  </label>
+                  <input type="password" id="password" name="password" placeholder="Mật khẩu">
+                </div>
+                <div class="col-12">
+                  <button class="button button-login">Đăng nhập</button>
+                </div>
+                <div class="col-12">
+                  <p class="forget">
+                    Quên
+                    <a href="#">Tài khoản / Mật khẩu?</a>
+                  </p>
+                </div>
+                <div class="col-12">
+                  <p class="create">
+                    <a href="#">
+                      Tạo tài khoản
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                  </p>
                 </div>
               </div>
-            </div>
+
+            </form>
           </div>
         </div>
       </div>
     </section>
-    <section class="pagination">
-      <div class="container">
-        <span class="pagination__button pagination__prev" id="paginationPrev">
-          <i class="fa-solid fa-circle-arrow-left"></i>
-        </span>
-        <span class="pagination__number pagination__number" id="paginationNumber">1</span>
-        <span class="pagination__button pagination__next" id="paginationNext">
-          <i class="fa-solid fa-circle-arrow-right"></i>
-        </span>
-      </div>
-    </section>
-    <!-- End Products -->
-    <!-- End Product -->
 
   </main>
   <!-- End Main -->
