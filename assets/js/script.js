@@ -24,5 +24,12 @@ $(document).ready(function () {
   });
   // End Brand
 });
-
 // End Slick
+
+
+// Login Page
+const inputEmailSignUp = document.querySelector(".login #inputEmail");
+const inputPasswordSignUp = document.querySelector(".login #inputPassword");
+console.log(inputEmailSignUp);
+console.log(inputPasswordSignUp);
+// End Login Page

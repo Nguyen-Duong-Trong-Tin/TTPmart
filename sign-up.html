@@ -148,53 +148,58 @@
     </section>
     <!-- End Header Main -->
 
-    <section class="login">
+    <!-- Sign Up -->
+    <section class="sign-up">
       <div class="container">
         <div class="row">
-          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-            <div class="img">
-              <img src="assets/images/login.webp" alt="">
+          <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 order">
+            <div class="form">
+              <h2 class="title">Đăng Ký</h2>
+              <div class="inner-input">
+                <label for="inputName">
+                  <i class="fa-solid fa-user"></i>
+                </label>
+                <input id="inputName" type="text" name="name" placeholder="Tên của bạn" required>
+              </div>
+              <div class="inner-input">
+                <label for="inputEmail">
+                  <i class="fa-solid fa-envelope"></i>
+                </label>
+                <input id="inputEmail" type="email" name="email" placeholder="Email của bạn" required>
+              </div>
+              <div class="inner-input">
+                <label for="inputPassword">
+                  <i class="fa-solid fa-eye"></i>
+                </label>
+                <input id="inputPassword" type="password" name="password" placeholder="Mật khẩu" required>
+              </div>
+              <div class="inner-input">
+                <label for="inputRepeatPassword">
+                  <i class="fa-regular fa-eye"></i>
+                </label>
+                <input id="inputRepeatPassword" type="password" name="passwordRepeat" placeholder="Nhập lại mật khẩu" required>
+              </div>
+              <div class="inner-checkbox">
+                <input id="inputCheckbox" type="checkbox">
+                <span>
+                  Tôi đồng ý với
+                  <a href="#">Điều khoản và dịch vụ</a>
+                </span>
+              </div>
+              <div class="inner-button">
+                <button id="buttonSignUp" class="button button-sign-up">Đăng ký</button>
+              </div>
             </div>
           </div>
-          <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
-            <div class="form">
-              <h3 class="title">Đăng Nhập</h3>
-              <div class="row">
-                <div class="col-12">
-                  <label for="inputEmail">
-                    <i class="fa-solid fa-envelope"></i>
-                  </label>
-                  <input type="email" id="inputEmail" name="email" placeholder="Email">
-                </div>
-                <div class="col-12">
-                  <label for="inputPassword">
-                    <i class="fa-solid fa-lock"></i>
-                  </label>
-                  <input type="password" id="inputPassword" name="password" placeholder="Mật khẩu">
-                </div>
-                <div class="col-12">
-                  <button id="buttonLogin" class="button button-login">Đăng nhập</button>
-                </div>
-                <div class="col-12">
-                  <p class="forget">
-                    Quên
-                    <a href="#">Tài khoản / Mật khẩu?</a>
-                  </p>
-                </div>
-                <div class="col-12">
-                  <p class="create">
-                    <a href="sign-up.html">
-                      Tạo tài khoản
-                      <i class="fa-solid fa-arrow-right"></i>
-                    </a>
-                  </p>
-                </div>
-              </div>
+          <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+            <div class="img">
+              <img src="assets/images/signup-image.jpg" alt="">
             </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- End Sign Up -->
 
   </main>
   <!-- End Main -->
@@ -335,7 +340,7 @@
   <script type="text/javascript" src="assets/slick/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="assets/slick/slick.js"></script>
   <!-- JS -->
-  <script src="assets/js/login.js"></script>
+  <script src="assets/js/sign-up.js"></script>
   <script type="module" src="assets/js/categories.js"></script>
   <script type="module" src="assets/js/products.js"></script>
 </body>

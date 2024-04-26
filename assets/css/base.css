@@ -161,4 +161,18 @@ a {
 .button-login:hover {
   background-color: var(--color-text-one);
 }
+
+.button-sign-up {
+  background-color: var(--color-four);
+  border: none;
+  padding: 20px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.button-sign-up:hover {
+  background-color: var(--color-text-one);
+}
 /* End Button */
