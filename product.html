@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TTPmart - About</title>
+  <title>TTPmart - Shop</title>
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="assets/images/x-monogram-by-victor-murea-dribbble.png">
   <!-- Font Awesome -->
@@ -24,11 +24,18 @@
 </head>
 
 <body>
+  <!-- Language -->
+  <div class="language">
+    <div class="vietnam"></div>
+    <div class="england"></div>
+  </div>
+  <!-- End Language -->
+
   <!-- Header -->
   <header class="header">
     <div class="container">
       <div class="inner-wrap">
-        <p class="desc">World Wide Completely Free Returns and Shipping</p>
+        <p class="desc">Trả hàng và vận chuyển hoàn toàn miễn phí trên toàn thế giới</p>
         <ul class="list">
           <li>
             <a href="#">
@@ -82,7 +89,7 @@
               <a href="#">
                 <i class="fa-regular fa-heart"></i>
               </a>
-              <a href="#">
+              <a id="trolley" href="cart.html">
                 <i class="fa-solid fa-cart-shopping"></i>
               </a>
             </div>
@@ -121,7 +128,9 @@
               <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#">HOME</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
@@ -178,7 +187,6 @@
     </section>
     <!-- End Categories -->
 
-    <!-- Product -->
     <!-- Products -->
     <section class="products" id="products">
       <h2 class="title">Danh sách sản phẩm</h2>
@@ -187,7 +195,7 @@
           <div class="col-12">
             <div class="form" id="form">
               <input class="search" type="text" name="search" placeholder="Nhập từ khóa tìm kiếm...">
-              <button class="button button-search-product">Tìm kiếm</button>
+              <button class="button button-search-product">Tìm Kiếm</button>
             </div>
             <div class="filter" id="filter">
               <select name="sort" class="sort" style="width: 250px;">
@@ -200,7 +208,7 @@
           </div>
         </div>
         <div class="row row-2">
-          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+          <!-- <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
             <div class="product__item">
               <img class="img" src="link_ảnh" alt="tiêu_đề_ảnh">
               <div class="percentage">%</div>
@@ -212,7 +220,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -228,7 +236,6 @@
       </div>
     </section>
     <!-- End Products -->
-    <!-- End Product -->
 
   </main>
   <!-- End Main -->
@@ -274,56 +281,56 @@
           </div>
           <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
             <div class="box box-two">
-              <h4 class="title">Services</h4>
+              <h4 class="title">Dich vụ</h4>
               <ul class="list">
                 <li>
-                  <a href="#">My Account</a>
+                  <a href="#">Tài khoản</a>
                 </li>
                 <li>
-                  <a href="#">Contact</a>
+                  <a href="#">Liên hệ</a>
                 </li>
                 <li>
-                  <a href="#">Shopping Cart</a>
+                  <a href="#">Thẻ</a>
                 </li>
                 <li>
-                  <a href="#">Shop</a>
+                  <a href="#">Cửa hàng</a>
                 </li>
                 <li>
-                  <a href="#">Services Login</a>
+                  <a href="#">Đăng ký</a>
                 </li>
               </ul>
             </div>
           </div>
           <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
             <div class="box box-three">
-              <h4 class="title">My Account</h4>
+              <h4 class="title">Tôi</h4>
               <ul class="list">
                 <li>
-                  <a href="#">My Account</a>
+                  <a href="#">Tài khoản</a>
                 </li>
                 <li>
-                  <a href="#">Contact</a>
+                  <a href="#">Liên hệ</a>
                 </li>
                 <li>
-                  <a href="#">Shopping Cart</a>
+                  <a href="#">hẻ</a>
                 </li>
                 <li>
-                  <a href="#">Shop</a>
+                  <a href="#">Cừa hàng</a>
                 </li>
                 <li>
-                  <a href="#">Services Login</a>
+                  <a href="#">Đăng ký</a>
                 </li>
               </ul>
             </div>
           </div>
           <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
             <div class="box box-four">
-              <h4 class="title">Contact Info</h4>
+              <h4 class="title">Liên hệ</h4>
               <ul class="list">
-                <li style="height: 50px;">Address: Your Address Goes Here.</li>
-                <li>Phone/Fax: 0123456789</li>
-                <li>Email: demo@example.com</li>
-                <li>demo@example.com</li>
+                <li style="height: 50px;">345 Ninh Kiều, Cần Thơ</li>
+                <li>SĐT: 0123456789</li>
+                <li>Email: ttpmart@ai.com</li>
+                <li>ttpmart@gamil.com</li>
               </ul>
             </div>
           </div>
@@ -370,9 +377,10 @@
   <script type="text/javascript" src="assets/slick/slick.js"></script>
   <!-- JS -->
   <script src="assets/js/script.js"></script>
-  <!-- JS -->
   <script type="module" src="assets/js/categories.js"></script>
   <script type="module" src="assets/js/products.js"></script>
+  <script type="module" src="assets/js/addCart.js"></script>
+  <script src="assets/js/language-product.js"></script>
 </body>
 
 </html>

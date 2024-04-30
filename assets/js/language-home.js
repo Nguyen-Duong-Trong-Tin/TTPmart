@@ -91,7 +91,7 @@ england.addEventListener("click", () => {
   });
   featuredOffersH5A.forEach((item, idx) => {
     if (idx == 0) item.innerHTML = "Ladies Smart Watch";
-    else item.HTML = "Smart Phone";
+    else item.innerHTML = "Smart Phone";
   });
   clientFeedbacksH2.innerHTML = "Client Feedbacks";
   clientFeedbacksP.innerHTML = "These are feedback from loyal customers";

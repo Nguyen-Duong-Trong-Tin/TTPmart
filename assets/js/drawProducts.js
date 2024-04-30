@@ -15,7 +15,7 @@ export const drawProducts = () => {
       let htmls = data.map(item => {
         return `
           <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
-            <div class="product__item">
+            <div class="product__item" id="${item.id}">
               <img class="img" src="${item.thumbnail}" alt="${item.title}">
               <div class="percentage">${item.discountPercentage}%</div>
               <div class="content">

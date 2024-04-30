@@ -5,6 +5,8 @@
   --color-two: #FEC356;
   --color-three: rgb(241, 115, 115);
   --color-four: #57b846;
+  --color-five: #677bdf;
+  --color-six: #EBEBEB;
 
   --color-text-one: #161616;
   --color-text-two: #999DA0;
@@ -189,6 +191,31 @@ a {
   background-color: var(--color-one);
   border: 5px solid var(--color-one);
 }
+
+.button-mi-ad {
+  border: none;
+}
+
+.button-mi-ad:hover {
+  background-color: var(--color-one);
+  color: #ffffff;
+}
+
+.button-buy {
+  padding: 20px;
+  width: 200px;
+  border-radius: 20px;
+  border: none;
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: var(--color-one);
+}
+
+.button-buy:hover {
+  box-shadow: 2px 2px 2px 2px var(--color-one);
+  background-color: var(--color-text-one);
+}
 /* End Button */
 
 /* Language */
@@ -233,18 +260,8 @@ a {
 @media (max-width: 575.98px) {
   .language {
     top: 170px;
-    right: calc(50% - 35px);
+    right: calc(50% - 50px);
     z-index: 1;
-  }
-
-  .language .vietnam {
-    width: 30px;
-    aspect-ratio: 4/3;
-  }
-  
-  .language .england {
-    width: 30px;
-    aspect-ratio: 4/3;
   }
 }
 /* End Language */
