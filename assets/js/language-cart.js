@@ -2,7 +2,9 @@ const vietnam = document.querySelector(".language .vietnam");
 const england = document.querySelector(".language .england");
 
 const headerDesc = document.querySelector(".header .desc");
-
+const cartTitle = document.querySelector(".cart .title");
+const cartInnerTitlePB = document.querySelectorAll(".cart .inner-title p b");
+const buttonBuy = document.querySelector("#button-buy");
 
 const footerFooterTopP = document.querySelector(".footer .footer-top p");
 const footerFooterTopBoxH4 = document.querySelectorAll(".footer .footer-top .box h4");
@@ -15,8 +17,15 @@ vietnam.addEventListener("click", () => {
 
 england.addEventListener("click", () => {
   headerDesc.innerHTML = "World Wide Completely Free Returns and Shipping";
-  
-
+  cartTitle.innerHTML = "Your Cart";
+  cartInnerTitlePB.forEach((item, idx) => {
+    if (idx == 0) item.innerHTML = "Image";
+    else if (idx == 1) item.innerHTML = "Name";
+    else if (idx == 2) item.innerHTML = "Price";
+    else if (idx == 3) item.innerHTML = "Quantity";
+    else item.innerHTML = "Action";
+  });
+  buttonBuy.innerHTML = "Buy";
 
   footerFooterTopP.innerHTML = "The technology device you are using is our product.";
   footerFooterTopBoxH4.forEach((item, idx) => {

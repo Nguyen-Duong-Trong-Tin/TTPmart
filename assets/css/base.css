@@ -27,13 +27,13 @@
 }
 
 html {
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 body {
   font-family: var(--font);
   color: var(--color-text-one);
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 ul {
@@ -246,22 +246,15 @@ a {
 
 @media (max-width: 991.98px) {
   .language {
-    top: 5px;
-    right: 10px;
     display: flex;
+    top: 170px;
+    right: calc(50% - 50px);
+    z-index: 1;
   }
 
   .language .vietnam {
     margin-right: 10px;
     margin-bottom: 0;
-  }
-}
-
-@media (max-width: 575.98px) {
-  .language {
-    top: 170px;
-    right: calc(50% - 50px);
-    z-index: 1;
   }
 }
 /* End Language */

@@ -8,7 +8,7 @@ let htmls = "";
 listItem.forEach((item) => {
   if (item !== "") {
     htmls += `
-      <div class="item">
+      <div class="item wow fadeInUp">
         <div class="row">
           <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">
             <div class="inner-img">
@@ -96,7 +96,7 @@ const calculator = () => {
     }
   });
   document.querySelector("#total").innerHTML = `
-    Tổng: ${money} $
+    ${money} $
   `;
 };
 

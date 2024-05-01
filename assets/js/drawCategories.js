@@ -10,14 +10,14 @@ export const drawCategories = () => {
         if (item == 'All') {
           return `
             <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-              <div class="category__item" data-category="">${item}</div>
+              <div class="category__item wow fadeInUp" data-category="">${item}</div>
             </div>
           `;
         }
         else {
           return `
             <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6">
-              <div class="category__item" data-category="${item}">${item}</div>
+              <div class="category__item wow fadeInUp" data-category="${item}">${item}</div>
             </div>
           `;
         }

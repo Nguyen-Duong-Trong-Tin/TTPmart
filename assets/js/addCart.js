@@ -15,6 +15,25 @@ const handleAdd = () => {
           arrCart.sort();
           setCookie("cart", [], "-1");
           setCookie("cart", arrCart, 100);
+          
+          document.querySelector("#alert-bought").classList.add("active");
+          setTimeout(() => {
+            document.querySelector("#alert-bought p:nth-child(2)").innerHTML = "1s";
+          }, 1000);
+          setTimeout(() => {
+            document.querySelector("#alert-bought").classList.remove("active");
+            document.querySelector("#alert-bought p:nth-child(2)").innerHTML = "2s";
+          }, 2000);
+        }
+        else {
+          document.querySelector("#alert-bought").classList.add("warning");
+          setTimeout(() => {
+            document.querySelector("#alert-bought p:nth-child(2)").innerHTML = "1s";
+          }, 1000);
+          setTimeout(() => {
+            document.querySelector("#alert-bought").classList.remove("warning");
+            document.querySelector("#alert-bought p:nth-child(2)").innerHTML = "2s";
+          }, 2000);
         }
       })
     })
