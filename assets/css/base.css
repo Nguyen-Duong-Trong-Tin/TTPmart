@@ -216,6 +216,24 @@ a {
   box-shadow: 2px 2px 2px 2px var(--color-one);
   background-color: var(--color-text-one);
 }
+
+.button-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: var(--color-one);
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 22px;
+  padding: 10px;
+  padding: 10px;
+  border-radius: 50%;
+  z-index: 999;
+}
+
+.button-top:hover {
+  background-color: var(--color-text-one);
+}
 /* End Button */
 
 /* Language */
