@@ -2,6 +2,20 @@ const vietnam = document.querySelector(".language .vietnam");
 const england = document.querySelector(".language .england");
 
 const headerDesc = document.querySelector(".header .desc");
+const headerAccount = document.querySelector(".header #account");
+const headerSearchInput = document.querySelector(".header-search input");
+const headerMainList = document.querySelectorAll(".header-main .list li");
+const headerMainNavHome = document.querySelector(".header-main #navHome");
+const headerMainButtonPage = document.querySelector(".header-main #button-page");
+const headerMainHome = document.querySelector(".header-main #home");
+const headerMainAbout = document.querySelector(".header-main #about");
+const headerMainPages = document.querySelector(".header-main #pages");
+const headerMainShop = document.querySelector(".header-main #shop");
+const headerMainBlog = document.querySelector(".header-main #blog");
+const headerMainContact = document.querySelector(".header-main #contact");
+const breadcrumbTitle = document.querySelector(".breadcrumb .title");
+const breadcrumbA = document.querySelector(".breadcrumb a");
+const breadcrumbSpan = document.querySelector(".breadcrumb span");
 const aboutSmartFashionTitle = document.querySelector(".about-smart-fashion .title");
 const aboutSmartFashionSubtitle = document.querySelector(".about-smart-fashion .subtitle");
 const aboutSmartFashionDesc = document.querySelector(".about-smart-fashion .desc");
@@ -27,6 +41,29 @@ vietnam.addEventListener("click", () => {
 
 england.addEventListener("click", () => {
   headerDesc.innerHTML = "World Wide Completely Free Returns and Shipping";
+  headerAccount.innerHTML = "Account";
+  headerSearchInput.setAttribute("placeholder", "Search");
+  console.log(headerMainList);
+  headerMainList.forEach((item, idx) => {
+    if (idx == 0) item.innerHTML = "HOME";
+    else if (idx == 1) item.innerHTML = "ABOUT";
+    else if (idx == 2) item.innerHTML = "PAGES";
+    else if (idx == 3) item.innerHTML = "SHOP";
+    else if (idx == 4) item.innerHTML = "BLOG";
+    else item.innerHTML = "CONTACT";
+  });
+  headerMainNavHome.innerHTML = "HOME";
+  headerMainButtonPage.innerHTML = "Page";
+  headerMainHome.innerHTML = "Home";
+  headerMainAbout.innerHTML = "About";
+  headerMainPages.innerHTML = "Pages";
+  headerMainShop.innerHTML = "Shop";
+  headerMainBlog.innerHTML = "Blog";
+  headerMainContact.innerHTML = "Contact";
+  breadcrumbTitle.innerHTML = "About";
+  breadcrumbA.innerHTML = "HOME";
+  breadcrumbSpan.innerHTML = "ABOUT";
+
   aboutSmartFashionTitle.innerHTML = "Smart Fashion";
   aboutSmartFashionSubtitle.innerHTML = "With Smart Devices";
   aboutSmartFashionDesc.innerHTML = "One of our top priorities is reputation and quality. With a customer care approach that always loves our customers, we always provide quality and durable products over time. As business operators, we can deeply understand your needs. We understand our existence is to contribute to society and give back the values ​​we have to the community.";
